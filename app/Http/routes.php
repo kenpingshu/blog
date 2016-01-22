@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'Main@index');
+Route::get('/header', 'Main@header');
 
 //Route::get('2015/12_test', 'Y2015\test_12\main@index');
 

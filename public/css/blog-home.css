@@ -11,3 +11,11 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.p-mainbox{
+    height: 57px;
+    overflow: hidden;
+    background: -webkit-linear-gradient(top,#333 0,#FFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

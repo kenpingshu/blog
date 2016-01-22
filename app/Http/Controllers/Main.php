@@ -14,6 +14,10 @@ class Main extends Controller
     {
         $article= new Article();
         $articles = $article->getArticleList(1);
-        return view('main',compact("articles"));
+        return view('main._main',compact("articles")+["nick"=>"臉都歪了"]);
+    }
+    
+    public function header(){
+        return view('template',["nick"=>"臉都歪了"]);
     }
 }
