@@ -1,7 +1,5 @@
 <!-- Blog Search Well -->
-@extend('page_style.two._two')
 
-@yield('right_content')
 <div class="well">
     <h4>Blog Search</h4>
     <div class="input-group">
