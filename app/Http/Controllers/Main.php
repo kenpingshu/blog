@@ -17,7 +17,5 @@ class Main extends Controller
         return view('main._main',compact("articles")+["nick"=>"臉都歪了"]);
     }
     
-    public function header(){
-        return view('template',["nick"=>"臉都歪了"]);
-    }
+
 }
