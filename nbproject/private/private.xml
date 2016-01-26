@@ -27,20 +27,23 @@
             <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/tests/Monolog/LoggerTest.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Controllers/Auth/PasswordController.php</file>
-            <file>file:/Users/fg/projects/blog/resources/views/main.php</file>
+            <file>file:/Users/fg/projects/blog/resources/views/template.blade.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/routes.php</file>
             <file>file:/Users/fg/projects/blog/config/database.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Controllers/Auth/AuthController.php</file>
             <file>file:/Users/fg/projects/blog/composer.json</file>
             <file>file:/Users/fg/projects/blog/public/css/blog-home.css</file>
+            <file>file:/Users/fg/projects/blog/resources/views/main/_main.blade.php</file>
             <file>file:/Users/fg/projects/blog/database/migrations/2016_01_20_083232_create_article_table.php</file>
             <file>file:/Users/fg/projects/blog/bootstrap/app.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Contracts/Console/Kernel.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Requests/Request.php</file>
             <file>file:/Users/fg/projects/blog/artisan</file>
+            <file>file:/Users/fg/projects/blog/resources/views/page_style/two/_right.blade.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php</file>
             <file>file:/Users/fg/projects/blog/public/index.php</file>
             <file>file:/Users/fg/projects/blog/bootstrap/autoload.php</file>
+            <file>file:/Users/fg/projects/blog/resources/views/page_style/two/_two.blade.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php</file>
             <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/phpunit.xml.dist</file>
             <file>file:/Users/fg/projects/blog/public/css/bootstrap.css</file>
