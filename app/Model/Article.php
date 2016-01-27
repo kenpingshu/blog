@@ -11,8 +11,8 @@ use Illuminate\Support\Facades\Config;
 class Article {
     //put your code here
     
-    public function geSingletArticle(){
-        
+    public function geSingletArticle($id){
+        return DB::select('select * from `article` where `id`=?  and `status` = 1 limit 0,1',[$id]);
     }
     
     public function getArticleList($page){

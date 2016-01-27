@@ -12,8 +12,8 @@ class Blog extends Controller
 
     public function showArticle(Request $request, $id)
     {
-//        echo $id;
-        return view('blog._blog');
+        $article= (new Article())->geSingletArticle($id);
+        return view('blog._blog', compact("article"));
     }
     
 
