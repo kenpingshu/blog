@@ -29,9 +29,9 @@
 <body>
     
     <!-- Navigation -->
-
-    @include('composers.header.Navigation')
-
+    @foreach($header_composers as $composer)
+        @include('composers.header.'.$composer , ['data' => $$composer])
+    @endforeach
     <!-- Page Content -->
     <div class="container">
 

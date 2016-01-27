@@ -11,6 +11,9 @@ class ComposerServiceProvider extends ServiceProvider
         view()->composer(
             'template', 'App\Http\BlockComposers\HeaderComposer'
         );
+        view()->composer(
+            'page_style.two._two', 'App\Http\BlockComposers\RightComposer'
+        );
     }
     
     public function register() 

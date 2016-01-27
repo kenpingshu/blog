@@ -3,50 +3,57 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/fg/projects/blog/app/Model/Article.php</file>
-            <file>file:/Users/fg/projects/blog/config/app.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Controllers/Main.php</file>
-            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Routing/Route.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Contracts/Console/Application.php</file>
             <file>file:/Users/fg/projects/blog/vendor/fzaninotto/faker/src/Faker/Provider/kk_KZ/Text.php</file>
-            <file>file:/Users/fg/projects/blog/config/broadcasting.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Kernel.php</file>
             <file>file:/Users/fg/projects/blog/config/article.php</file>
-            <file>file:/Users/fg/projects/blog/server.php</file>
+            <file>file:/Users/fg/projects/blog/app/Providers/AuthServiceProvider.php</file>
             <file>file:/Users/fg/projects/blog/app/User.php</file>
+            <file>file:/Users/fg/projects/blog/app/Http/Controllers/Controller.php</file>
+            <file>file:/Users/fg/projects/blog/vendor/symfony/console/Input/ArgvInput.php</file>
+            <file>file:/Users/fg/projects/blog/app/mainModel.php</file>
+            <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/tests/Monolog/LoggerTest.php</file>
+            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php</file>
+            <file>file:/Users/fg/projects/blog/resources/views/template.blade.php</file>
+            <file>file:/Users/fg/projects/blog/app/Http/routes.php</file>
+            <file>file:/Users/fg/projects/blog/public/css/blog-home.css</file>
+            <file>file:/Users/fg/projects/blog/app/Providers/AppServiceProvider.php</file>
+            <file>file:/Users/fg/projects/blog/bootstrap/app.php</file>
+            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Contracts/Console/Kernel.php</file>
+            <file>file:/Users/fg/projects/blog/artisan</file>
+            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php</file>
+            <file>file:/Users/fg/projects/blog/public/index.php</file>
+            <file>file:/Users/fg/projects/blog/app/Http/BlockComposers/Header/Navigation.php</file>
+            <file>file:/Users/fg/projects/blog/resources/views/page_style/two/_two.blade.php</file>
+            <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/phpunit.xml.dist</file>
+            <file>file:/Users/fg/projects/blog/app/Providers/ComposerServiceProvider.php</file>
+            <file>file:/Users/fg/projects/blog/app/Model/Article.php</file>
+            <file>file:/Users/fg/projects/blog/config/app.php</file>
+            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Routing/Route.php</file>
+            <file>file:/Users/fg/projects/blog/config/broadcasting.php</file>
+            <file>file:/Users/fg/projects/blog/server.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Encryption/McryptEncrypter.php</file>
             <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/src/Monolog/Logger.php</file>
             <file>file:/Users/fg/projects/blog/config/auth.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/ServeCommand.php</file>
-            <file>file:/Users/fg/projects/blog/app/Http/Controllers/Controller.php</file>
-            <file>file:/Users/fg/projects/blog/vendor/symfony/console/Input/ArgvInput.php</file>
-            <file>file:/Users/fg/projects/blog/app/mainModel.php</file>
+            <file>file:/Users/fg/projects/blog/app/Http/BlockComposers/HeaderComposer.php</file>
             <file>file:/Users/fg/projects/blog/public/css/bootstrap.min.css</file>
             <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/src/Monolog/Registry.php</file>
-            <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/tests/Monolog/LoggerTest.php</file>
-            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Routing/Router.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Controllers/Auth/PasswordController.php</file>
-            <file>file:/Users/fg/projects/blog/resources/views/template.blade.php</file>
-            <file>file:/Users/fg/projects/blog/app/Http/routes.php</file>
             <file>file:/Users/fg/projects/blog/config/database.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Controllers/Auth/AuthController.php</file>
             <file>file:/Users/fg/projects/blog/composer.json</file>
-            <file>file:/Users/fg/projects/blog/public/css/blog-home.css</file>
             <file>file:/Users/fg/projects/blog/resources/views/main/_main.blade.php</file>
             <file>file:/Users/fg/projects/blog/database/migrations/2016_01_20_083232_create_article_table.php</file>
-            <file>file:/Users/fg/projects/blog/bootstrap/app.php</file>
-            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Contracts/Console/Kernel.php</file>
+            <file>file:/Users/fg/projects/blog/resources/views/greeting.php</file>
             <file>file:/Users/fg/projects/blog/app/Http/Requests/Request.php</file>
-            <file>file:/Users/fg/projects/blog/artisan</file>
             <file>file:/Users/fg/projects/blog/resources/views/page_style/two/_right.blade.php</file>
-            <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php</file>
-            <file>file:/Users/fg/projects/blog/public/index.php</file>
             <file>file:/Users/fg/projects/blog/bootstrap/autoload.php</file>
-            <file>file:/Users/fg/projects/blog/resources/views/page_style/two/_two.blade.php</file>
             <file>file:/Users/fg/projects/blog/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php</file>
-            <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/phpunit.xml.dist</file>
             <file>file:/Users/fg/projects/blog/public/css/bootstrap.css</file>
+            <file>file:/Users/fg/projects/blog/resources/views/composers/header/Navigation.blade.php</file>
             <file>file:/Users/fg/projects/blog/vendor/monolog/monolog/src/Monolog/ErrorHandler.php</file>
         </group>
     </open-files>

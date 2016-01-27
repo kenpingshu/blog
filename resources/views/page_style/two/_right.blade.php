@@ -1,5 +1,7 @@
 <!-- Blog Search Well -->
-
+@foreach($right_composers as $composer)
+    @include('composers.header.'.$composer , ['data' => $$composer])
+@endforeach
 <div class="well">
     <h4>Blog Search</h4>
     <div class="input-group">
