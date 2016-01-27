@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'Main@index');
-Route::get('/header', 'Main@header');
+Route::get('/article/{id}', 'Blog@showArticle')->where(['id' => '[0-9]+']);
 
 //Route::get('2015/12_test', 'Y2015\test_12\main@index');
 

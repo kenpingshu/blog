@@ -14,7 +14,7 @@ class Main extends Controller
     {
         $article= new Article();
         $articles = $article->getArticleList(1);
-        return view('main._main',compact("articles")+["nick"=>"臉都歪了"]);
+        return view('main._main',compact("articles"));
     }
     
 
