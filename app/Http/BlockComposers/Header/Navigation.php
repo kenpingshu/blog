@@ -25,20 +25,20 @@ class Navigation {
             
             [
                 "name" => "關於我",
-                "link" => "/about"
+                "link" => url("/about")
             ],
             [
                 "name" => "Service",
-                "link" => "",
+                "link" => url("/service"),
             ],
             [
                 "name" => "Contact",
-                "link" => ""
+                "link" => url("/contact")
             ]
         ];
         $logo = [
             "name" => "臉都歪了",
-            "link" => "/"
+            "link" => url("/")
         ];
         $this->data->nav_list = $nav_list;
         $this->data->logo = $logo;

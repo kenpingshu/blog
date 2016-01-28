@@ -12,7 +12,7 @@ class Article {
     //put your code here
     
     public function geSingletArticle($id){
-        return DB::select('select * from `article` where `id`=?  and `status` = 1 limit 0,1',[$id]);
+        return DB::select('select * from `article` where `id`=?  and `status` = 1 limit 0,1',[$id])[0];
     }
     
     public function getArticleList($page){

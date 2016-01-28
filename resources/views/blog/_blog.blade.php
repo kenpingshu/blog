@@ -4,16 +4,6 @@
 <!-- Title -->
 <h1>{{ $article->title }}</h1>
 
-<!-- Author -->
-<p class="lead">
-    by <a href="#">{{ $article->user_id }}</a>
-</p>
-
-<hr>
-
-<!-- Date/Time -->
-<p><span class="glyphicon glyphicon-time"></span> Posted on {{ $article->create_at }}</p>
-
 <hr>
 
 <!-- Preview Image -->
@@ -29,7 +19,10 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>-->
 
 <hr>
+<!-- Date/Time -->
+<p><span class="glyphicon glyphicon-time"></span> {{ $article->user_id }} Posted on {{ $article->create_at }}</p>
 
+<hr>
 <!-- Blog Comments -->
 
 <!-- Comments Form -->
