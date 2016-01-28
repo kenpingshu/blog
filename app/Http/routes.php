@@ -20,6 +20,6 @@ Route::get('/about','About@show');
 Route::get('/service','Service@show');
 
 Route::get('/contact','Contact@show');
+
+Route::resource('/post','Post');
 //Route::get('2015/12_test', 'Y2015\test_12\main@index');
-
-
