@@ -22,4 +22,24 @@ class Article {
         return $articles;
     }
     
+    public function addArticle($title, $content){
+        $sql = 'insert into `article` ('
+                . '`category`,'
+                . '`title` ,'
+                . '`content`,'
+                . '`user_id`,'
+                . '`create_at`,'
+                . '`status`)'
+                . ' values('
+                . ':category,:title,:content,:user_id,:create_at,:status)';
+        $insert_data = [
+            ":category" => 1,
+            ":title" => $title,
+            ":content" => $content,
+            ":user_id" => 1,
+            ":create_at" => date("Y-m-d H:i:s"),
+            ":status" => 1 
+        ];
+        var_dump(DB::insert($sql,$insert_data));
+    }
 }

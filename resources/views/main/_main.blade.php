@@ -1,6 +1,7 @@
 @extends('page_style.two._two')
 
 @section('left_content')
+@include('script._ckeditor')
 <h1 class="page-header">
     臉都歪了
     <small>技術日誌</small>
@@ -18,7 +19,7 @@
 <hr>
 <img class="img-responsive" src="http://placehold.it/900x300" alt="">
 <hr>
-<p class="p-mainbox">{{ $article->content }}</p>
+<div class="p-mainbox">{!! $article->content !!}</div>
 <a class="btn btn-primary" href="{{ url('/article/'.$article->id) }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
 <hr>

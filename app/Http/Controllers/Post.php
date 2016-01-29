@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Model\Article;
 
 class Post extends Controller
 {
@@ -37,7 +38,8 @@ class Post extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $article_class = new Article();
+        $article_class->addArticle($request->input("title",""), $request->input("content",""));
     }
 
     /**
