@@ -1,4 +1,4 @@
 <?php
 return [
-    'rows_of_page' => 5
+    'rows_of_page' => 10
 ];

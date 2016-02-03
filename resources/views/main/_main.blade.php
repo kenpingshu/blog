@@ -17,8 +17,10 @@
 </p>
 <p><span class="glyphicon glyphicon-time"></span> Posted on {{ $article->create_at }}</p>
 <hr>
-<img class="img-responsive" src="http://placehold.it/900x300" alt="">
+@if($article->img_url)
+<img class="img-responsive" src="{{ $article->img_url }}" alt="">
 <hr>
+@endif
 <div class="p-mainbox">{!! $article->content !!}</div>
 <a class="btn btn-primary" href="{{ url('/article/'.$article->id) }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 

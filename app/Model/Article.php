@@ -40,6 +40,6 @@ class Article {
             ":create_at" => date("Y-m-d H:i:s"),
             ":status" => 1 
         ];
-        var_dump(DB::insert($sql,$insert_data));
+        DB::insert($sql,$insert_data);
     }
 }

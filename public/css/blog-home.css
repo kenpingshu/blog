@@ -19,3 +19,7 @@ footer {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+pre{
+    background-color: #23241f;
+}

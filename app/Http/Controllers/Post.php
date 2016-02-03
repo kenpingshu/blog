@@ -40,6 +40,7 @@ class Post extends Controller
     {
         $article_class = new Article();
         $article_class->addArticle($request->input("title",""), $request->input("content",""));
+        return redirect()->action("Post@index");
     }
 
     /**
